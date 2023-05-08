@@ -5,8 +5,13 @@ import config
 import streamlit as st
 from streamlit_chat import message
 
-# Pasamos la API_KEY de OpenAI
-openai.api_key = config.API_KEY
+# Pedimos la API_KEY de OpenAI
+if not st.session_state.get('api_key'):
+    openai.api_key = st.text_input('Introduce tu clave API de OpenAI: ', key='api')
+    if openai.api_key:
+        st.session_state['api_key'] = openai.api_key
+else:
+    st.write('✅ API proporcionada')
 
 # Condicionar chatbot a que sea un asistente NIST
 contexto=[{'role': 'system', 

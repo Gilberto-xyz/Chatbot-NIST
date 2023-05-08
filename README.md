@@ -15,7 +15,7 @@ o puedes instalarlas todas a la vez con el siguiente comando:
 
 <code>pip install -r requirements.txt </code>
 
-Además, necesitarás una clave API de OpenAI para poder utilizar su modelo GPT-3.5-turbo. Puedes obtener una clave API registrándote en OpenAI.
+Además, necesitarás una clave [API de OpenAI](https://platform.openai.com/account/api-keys) para poder utilizar su modelo GPT-3.5-turbo. Puedes obtener una clave API registrándote en OpenAI.
 
 ### Configuración
 Antes de ejecutar el chatbot, asegúrate de agregar tu clave API de OpenAI al archivo config.py:
