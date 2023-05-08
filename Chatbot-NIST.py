@@ -1,7 +1,6 @@
 # Modelo Vista Controlador usando Streamlit para el Chatbot NIST
 
 import openai
-import config
 import streamlit as st
 from streamlit_chat import message
 
