@@ -1,1 +1,33 @@
-# Chatbot-NIST
+# Chatbot NIST
+
+Este es un chatbot de NIST (Instituto Nacional de Estándares y Tecnología de los Estados Unidos) construido con Streamlit y OpenAI. Su función es ayudar a los usuarios a obtener información sobre las normas y guías de NIST. El chatbot responde preguntas y proporciona información precisa y actualizada sobre las publicaciones y actividades de NIST.
+
+### Instalación
+Para ejecutar este chatbot, necesitarás tener Python 3.x instalado en tu computadora. También necesitarás instalar las siguientes librerías:
+
+<code>pip install openai</code>
+
+<code>pip install streamlit</code>
+
+<code>pip install streamlit_chat</code>
+
+Además, necesitarás una clave API de OpenAI para poder utilizar su modelo GPT-3.5-turbo. Puedes obtener una clave API registrándote en OpenAI.
+
+### Configuración
+Antes de ejecutar el chatbot, asegúrate de agregar tu clave API de OpenAI al archivo config.py:
+
+<code>
+API_KEY = "TU_CLAVE_API_AQUÍ"
+</code>
+
+### Ejecución
+Para ejecutar el chatbot, simplemente navega al directorio donde se encuentra el archivo app.py y ejecuta el siguiente comando:
+
+<code>
+streamlit run Chatbot-NIST.py
+</code>
+
+Esto iniciará la aplicación en tu navegador web predeterminado.
+
+### Uso
+Para usar el chatbot, simplemente escribe tu pregunta en el cuadro de texto y presiona enter. El chatbot responderá con información relevante sobre las normas y guías de NIST.
