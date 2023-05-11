@@ -35,3 +35,5 @@ Para usar el chatbot, simplemente escribe tu pregunta en el cuadro de texto y pr
 Puedes probar el chatbot en el siguiente enlace: https://gilberto-xyz-chatbot-nist-chatbot-nist-9puad3.streamlit.app/
 ### Documentacion
 [Codigo explicado](https://gilbertscript.notion.site/MVC-Chatbot-ff152eef008c49fb87c7ec5b60ea3a21)
+
+[Video Demostracion](https://drive.google.com/file/d/1fSTI03X2bTnaLjnSUCC963YdVI95DAVK/view?usp=sharing)
